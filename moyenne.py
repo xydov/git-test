@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
+from average import notes
 
-
-mes_notes = [13 , 14 , 16 ]
-y=np.mean(mes_notes)
+y=np.mean(notes)
 print( y ) 
